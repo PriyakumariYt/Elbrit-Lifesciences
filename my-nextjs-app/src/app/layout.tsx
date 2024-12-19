@@ -26,11 +26,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <title>Elbrit Life Sciences</title>
+      <link rel="icon" href="/image/image (1).png" />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );
